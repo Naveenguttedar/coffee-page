@@ -30,6 +30,13 @@ body{
 @media  only screen and (max-width:600px) {
   .container{
     width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'item1''item2';
+  }
+  .text{
+    font-size: 14px;
+    padding: .4rem;
+    width: 100%;
   }
 }
 img{
